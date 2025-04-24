@@ -1,1 +1,8 @@
 
+services:
+  - type: web
+    name: maca
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python app.py"
